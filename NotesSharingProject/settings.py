@@ -138,5 +138,5 @@ STATIC_ROOT=os.path.join(BASE_DIR,'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-heroku config:set DISABLE_COLLECTSTATIC=1
+#heroku config:set DISABLE_COLLECTSTATIC=1
 django_heroku.settings(locals())
